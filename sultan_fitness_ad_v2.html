@@ -1,0 +1,80 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+.ad{width:500px;height:500px;background:#0D1B2A;font-family:'Montserrat',sans-serif;position:relative;overflow:hidden;margin:0 auto}
+.bg-circle{position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(180,140,60,0.07);top:-80px;right:-100px}
+.bg-circle2{position:absolute;width:260px;height:260px;border-radius:50%;background:rgba(180,140,60,0.05);bottom:-60px;left:-60px}
+.top-bar{position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,#C9A84C,#F0D080,#C9A84C)}
+.content{position:absolute;inset:0;padding:22px 26px 0}
+.brand{font-size:9px;letter-spacing:0.3em;color:#C9A84C;text-transform:uppercase;font-weight:700;margin-bottom:10px}
+.main-title{font-family:'Bebas Neue',sans-serif;font-size:62px;line-height:0.95;color:#FFFFFF;margin-bottom:4px;letter-spacing:0.02em}
+.main-title span{color:#C9A84C}
+.subtitle{font-size:10px;letter-spacing:0.18em;color:rgba(255,255,255,0.45);text-transform:uppercase;font-weight:600;margin-bottom:16px}
+.gold-rule{width:100%;height:1px;background:rgba(201,168,76,0.3);margin-bottom:16px}
+.features-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.feat{background:rgba(255,255,255,0.04);border:1px solid rgba(201,168,76,0.2);padding:10px 12px;display:flex;align-items:center;gap:10px}
+.feat-icon{width:28px;height:28px;background:#C9A84C;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.feat-icon svg{width:14px;height:14px}
+.feat-text{font-size:10px;font-weight:700;color:#FFFFFF;letter-spacing:0.06em;text-transform:uppercase;line-height:1.3}
+.bottom-bar{position:absolute;bottom:0;left:0;right:0;height:88px;background:rgba(201,168,76,0.96);display:flex;align-items:center;justify-content:space-between;padding:0 26px}
+.price-left{}
+.only-txt{font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(10,18,28,0.65);font-weight:700;margin-bottom:-2px}
+.price-big{font-family:'Bebas Neue',sans-serif;font-size:54px;color:#0D1B2A;line-height:1;letter-spacing:0.02em}
+.per-month{font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(10,18,28,0.55);font-weight:700;margin-top:-4px}
+.cta{background:#0D1B2A;color:#C9A84C;font-size:11px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;padding:14px 24px;border:none;cursor:pointer;font-family:'Montserrat',sans-serif;line-height:1.3;text-align:center}
+.badge{position:absolute;top:20px;right:22px;width:76px;height:76px;background:#C9A84C;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;border:3px solid #F0D080}
+.badge-only{font-size:7px;letter-spacing:0.12em;text-transform:uppercase;color:#0D1B2A;font-weight:800}
+.badge-price{font-family:'Bebas Neue',sans-serif;font-size:28px;color:#0D1B2A;line-height:1;margin:-1px 0}
+.badge-mo{font-size:7px;letter-spacing:0.1em;text-transform:uppercase;color:#0D1B2A;font-weight:800}
+</style>
+<div class="ad">
+  <div class="top-bar"></div>
+  <div class="bg-circle"></div>
+  <div class="bg-circle2"></div>
+  <div class="badge">
+    <div class="badge-only">ONLY</div>
+    <div class="badge-price">$75</div>
+    <div class="badge-mo">/ MONTH</div>
+  </div>
+  <div class="content">
+    <div class="brand">Sultan Fitness — Elite Program</div>
+    <div class="main-title">ALL-IN-ONE<br><span>FITNESS</span><br>PACKAGE</div>
+    <div class="subtitle">Everything you need. One price.</div>
+    <div class="gold-rule"></div>
+    <div class="features-grid">
+      <div class="feat">
+        <div class="feat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2.5" stroke-linecap="round"><path d="M12 2C8 2 5 6 5 10c0 5 7 12 7 12s7-7 7-12c0-4-3-8-7-8z"/></svg>
+        </div>
+        <div class="feat-text">Diet Plan</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2.5" stroke-linecap="round"><path d="M6 4v16M18 4v16M6 12h12"/><circle cx="3" cy="12" r="2" fill="#0D1B2A" stroke="none"/><circle cx="21" cy="12" r="2" fill="#0D1B2A" stroke="none"/></svg>
+        </div>
+        <div class="feat-text">Workout Plan</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2.5" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+        </div>
+        <div class="feat-text">Gym Membership</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <div class="feat-text">1-on-1 PT Sessions</div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <div class="price-left">
+      <div class="only-txt">ALL-INCLUSIVE</div>
+      <div class="price-big">$75</div>
+      <div class="per-month">per month · cancel anytime</div>
+    </div>
+    <button class="cta">JOIN<br>NOW →</button>
+  </div>
+</div>
